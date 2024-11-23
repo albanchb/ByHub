@@ -1,11 +1,10 @@
-/* Variables et Reset */
+/*CSS généré par Claude AI, je n'avais pas le temps de faire du FRONT pour un site peu utile*/
 :root {
     --primary-color: #2563eb;
     --text-color: #1f2937;
     --background-color: #f3f4f6;
     --card-background: #ffffff;
     
-    /* Couleurs uniques pour chaque projet */
     --dreamshare-color: #8b5cf6;
     --dreamshare-gradient: linear-gradient(135deg, #8b5cf6, #6d28d9);
     
@@ -27,9 +26,7 @@
     --transition: all 0.3s ease;
 }
 
-/* Le reste du CSS reste identique jusqu'aux sélecteurs de couleurs spécifiques */
 
-/* Couleurs spécifiques pour chaque carte */
 .company-card.dreamshare::before { background: var(--dreamshare-gradient); }
 .company-card.byweb::before { background: var(--byweb-gradient); }
 .company-card.cantine::before { background: var(--cantine-gradient); }
@@ -37,7 +34,6 @@
 .company-card.civix::before { background: var(--civix-gradient); }
 .company-card.lncloud::before { background: var(--lncloud-gradient); }
 
-/* Couleurs spécifiques pour chaque icône */
 .dreamshare .company-icon { background: var(--dreamshare-gradient); }
 .byweb .company-icon { background: var(--byweb-gradient); }
 .cantine .company-icon { background: var(--cantine-gradient); }
@@ -45,7 +41,6 @@
 .civix .company-icon { background: var(--civix-gradient); }
 .lncloud .company-icon { background: var(--lncloud-gradient); }
 
-/* Couleurs spécifiques pour chaque titre */
 .dreamshare h2 { color: var(--dreamshare-color); }
 .byweb h2 { color: var(--byweb-color); }
 .cantine h2 { color: var(--cantine-color); }
@@ -53,7 +48,6 @@
 .civix h2 { color: var(--civix-color); }
 .lncloud h2 { color: var(--lncloud-color); }
 
-/* Couleurs spécifiques pour les puces */
 .dreamshare .positions li::before { color: var(--dreamshare-color); }
 .byweb .positions li::before { color: var(--byweb-color); }
 .cantine .positions li::before { color: var(--cantine-color); }
@@ -61,7 +55,6 @@
 .civix .positions li::before { color: var(--civix-color); }
 .lncloud .positions li::before { color: var(--lncloud-color); }
 
-/* Couleurs spécifiques pour les boutons */
 .dreamshare .discover-btn {
     color: var(--dreamshare-color);
     border-color: var(--dreamshare-color);
@@ -98,14 +91,12 @@
 }
 .lncloud .join-btn { background: var(--lncloud-gradient); }
 
-/* Variables et Reset */
 :root {
     --primary-color: #2563eb;
     --text-color: #1f2937;
     --background-color: #f3f4f6;
     --card-background: #ffffff;
     
-    /* Couleurs uniques pour chaque projet */
     --dreamshare-color: #8b5cf6;
     --dreamshare-gradient: linear-gradient(135deg, #8b5cf6, #6d28d9);
     
@@ -137,7 +128,6 @@ body {
     background-color: var(--background-color);
 }
 
-/* Navigation */
 header {
     background-color: var(--card-background);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -189,7 +179,6 @@ nav a:hover {
     color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
     height: 60vh;
     display: flex;
@@ -231,7 +220,6 @@ nav a:hover {
     backdrop-filter: blur(5px);
 }
 
-/* Companies Section */
 .companies {
     max-width: 1200px;
     margin: 4rem auto;
@@ -270,7 +258,6 @@ nav a:hover {
     box-shadow: 0 8px 12px rgba(0,0,0,0.15);
 }
 
-/* Couleurs spécifiques pour chaque carte */
 .company-card.dreamshare::before { background: var(--dreamshare-gradient); }
 .company-card.byweb::before { background: var(--byweb-gradient); }
 .company-card.cantine::before { background: var(--cantine-gradient); }
@@ -287,7 +274,6 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-/* Couleurs spécifiques pour chaque icône */
 .dreamshare .company-icon { background: var(--dreamshare-gradient); }
 .byweb .company-icon { background: var(--byweb-gradient); }
 .cantine .company-icon { background: var(--cantine-gradient); }
@@ -306,7 +292,6 @@ nav a:hover {
     gap: 0.5rem;
 }
 
-/* Couleurs spécifiques pour chaque titre */
 .dreamshare h2 { color: var(--dreamshare-color); }
 .byweb h2 { color: var(--byweb-color); }
 .cantine h2 { color: var(--cantine-color); }
@@ -348,7 +333,6 @@ nav a:hover {
     left: -1rem;
 }
 
-/* Couleurs spécifiques pour les puces */
 .dreamshare .positions li::before { color: var(--dreamshare-color); }
 .byweb .positions li::before { color: var(--byweb-color); }
 .cantine .positions li::before { color: var(--cantine-color); }
@@ -392,7 +376,6 @@ nav a:hover {
     border: 2px solid;
 }
 
-/* Couleurs spécifiques pour les boutons */
 .dreamshare .discover-btn {
     color: var(--dreamshare-color);
     border-color: var(--dreamshare-color);
@@ -428,7 +411,6 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Footer */
 footer {
     background-color: var(--text-color);
     color: white;
@@ -483,7 +465,6 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
