@@ -1,15 +1,12 @@
 <?php
-// Vérifie si le formulaire a été soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Récupère les données du formulaire
     $nom = htmlspecialchars($_POST['nom']);
     $prenom = htmlspecialchars($_POST['prenom']);
     $email = htmlspecialchars($_POST['email']);
     $projet = htmlspecialchars($_POST['projet']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Prépare les informations pour l'email
-    $to = 'alban.chapuisbaldit@gmail.com';
+    $to = 'votreemail';
     $subject = "Nouvelle demande de contact depuis le site ByWeb";
     $body = "
         <h1>Nouvelle demande de contact</h1>
@@ -24,7 +21,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    // Envoie l'email
     if (mail($to, $subject, $body, $headers)) {
         $confirmation = "Votre message a été envoyé avec succès. Nous vous répondrons bientôt.";
     } else {
